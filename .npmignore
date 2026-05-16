@@ -1,0 +1,10 @@
+src
+tests
+examples
+docs
+.github
+coverage
+node_modules
+vitest.config.ts
+tsconfig.json
+tsconfig.test-d.json
