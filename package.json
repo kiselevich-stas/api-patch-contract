@@ -4,14 +4,14 @@
   "description": "Type-safe PATCH payload builder for forms and API contracts.",
   "type": "module",
   "license": "MIT",
-  "author": "Your Name",
+  "author": "Kiselevich Stas",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-name/api-patch-contract.git"
+    "url": "git+https://github.com/kiselevich-stas/api-patch-contract.git"
   },
-  "homepage": "https://github.com/your-name/api-patch-contract#readme",
+  "homepage": "https://github.com/kiselevich-stas/api-patch-contract#readme",
   "bugs": {
-    "url": "https://github.com/your-name/api-patch-contract/issues"
+    "url": "https://github.com/kiselevich-stas/api-patch-contract/issues"
   },
   "keywords": [
     "patch",

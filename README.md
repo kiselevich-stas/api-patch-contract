@@ -255,7 +255,8 @@ Use custom comparators for dates, rounded numbers, case-insensitive values, or d
 ```ts
 const contract = definePatchContract<EventForm>()({
   startDate: field<Date, string>({
-    compare: (initial, current) => initial.toDateString() === current.toDateString(),
+    ccompare: (initial, current) =>
+            initial.toISOString().slice(0, 10) === current.toISOString().slice(0, 10),
     transform: value => value.toISOString(),
   }),
 })
